@@ -1,0 +1,33 @@
+{
+  "name": "grunt-hashmap",
+  "description": "build hash map of each file",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Jwata/grunt-hashmap",
+  "author": {
+    "name": "Junji Watanabe",
+    "email": "watanabe0621@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jwata/grunt-hashmap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jwata/grunt-hashmap/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Jwata/grunt-hashmap/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": {
+    "grunt-hashmap": "bin/grunt-hashmap"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
