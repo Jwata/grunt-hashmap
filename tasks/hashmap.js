@@ -39,8 +39,7 @@ module.exports = function(grunt) {
         var source = grunt.file.read(src);
         var hash = options.hashFunction(source, 'utf8').substr(0, options.hashLength);
         var ext = path.extname(src);
-        var relativePath = path.relative(options.srcBasePath, src);
-        var key = relativePath.replace(ext, "");
+        var key = path.relative(options.srcBasePath, src);
 
         map[unixify(key)] = hash;
       });
